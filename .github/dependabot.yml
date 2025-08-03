@@ -1,13 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: "terraform"
-    directory: "/terraform/github"
+  - package-ecosystem: "pnpm"
+    directory: "/"
     schedule:
       interval: "daily"
     target-branch: "main"
     labels:
-      - "Terraform"
+      - "dependencies"
+      - "npm"
     assignees:
-      - "46ki75"
-    reviewers:
       - "46ki75"
