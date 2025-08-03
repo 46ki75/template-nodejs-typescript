@@ -29,6 +29,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: Run Unit Test
         run: pnpm test
         working-directory: packages/my-package
