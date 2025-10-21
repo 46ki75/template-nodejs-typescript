@@ -14,7 +14,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
-    "@types/node": "^24.8.1",
+    "@types/node": "^24.9.1",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   }
